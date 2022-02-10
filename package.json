@@ -1,0 +1,26 @@
+{
+  "name": "tsblockchain_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunyeongjeong/TSBlockchain_clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunyeongjeong/TSBlockchain_clone/issues"
+  },
+  "homepage": "https://github.com/sunyeongjeong/TSBlockchain_clone#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.0",
+    "prettier": "^2.5.1"
+  }
+}
